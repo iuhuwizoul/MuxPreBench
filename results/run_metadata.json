@@ -1,0 +1,15 @@
+{
+  "config_sha256": "7939b5306fe12ad66cc4c62b0a35f830f446270eda0b105e6027e0554dd77203",
+  "package_versions": {
+    "matplotlib": "3.11.1",
+    "numpy": "2.5.1",
+    "pandas": "3.0.3",
+    "scikit-image": "0.26.0",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.18.0"
+  },
+  "platform": "macOS-26.3.1-arm64-arm-64bit",
+  "python": "3.12.13",
+  "seed": 23,
+  "synthetic_data": true
+}

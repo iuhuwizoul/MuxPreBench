@@ -1,0 +1,56 @@
+seed: 23
+
+data:
+  n_samples: 24
+  image_size: 96
+  cells_per_image: 20
+  severities: [0.5, 1.0, 1.5]
+
+preprocessing:
+  background_radius: 9
+  flatfield_sigma: 18.0
+  registration_upsample: 10
+
+pipelines:
+  raw:
+    background: none
+    illumination: none
+    registration: none
+  background_only:
+    background: morphology
+    illumination: none
+    registration: none
+  illumination_only:
+    background: none
+    illumination: gaussian
+    registration: none
+  registration_only:
+    background: none
+    illumination: none
+    registration: phase
+  full:
+    background: morphology
+    illumination: gaussian
+    registration: phase
+  full_no_background:
+    background: none
+    illumination: gaussian
+    registration: phase
+  full_no_illumination:
+    background: morphology
+    illumination: none
+    registration: phase
+  full_no_registration:
+    background: morphology
+    illumination: gaussian
+    registration: none
+
+evaluation:
+  reference_severity: 1.0
+  bootstrap_iterations: 500
+  downstream_repeats: 5
+  test_fraction: 0.3
+  pixels_per_image: 500
+  held_out_channel: ERK
+
+output_dir: results
