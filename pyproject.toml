@@ -11,9 +11,9 @@ requires-python = ">=3.10"
 license = {text = "MIT"}
 authors = [
   {name = "Xuantong Ji"},
+  {name = "Jiahang Song"},
   {name = "Lu Yu"},
   {name = "Jiyao Zhang"},
-  {name = "Jiahang Song"},
 ]
 dependencies = [
   "matplotlib>=3.8",

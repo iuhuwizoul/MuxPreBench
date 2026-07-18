@@ -188,15 +188,16 @@ emotion-recognition, or disease-detection experience. Its value for Projects 2
 and 3 is evidence of transferable experimental practice, not superficial domain
 coverage.
 
-## Authors
+## Contributors
 
 - **Xuantong Ji** — TUM student ID 03821940
+- **Jiahang Song** — TUM student ID 03815779
 - **Lu Yu** — TUM student ID 03810035
 - **Jiyao Zhang** — TUM student ID 03810015
-- **Jiahang Song** — TUM student ID 03815779
 
-All four authors contributed to the research prototype. GitHub co-author
-attribution is recorded in the repository's initial commit.
+Contributors are listed alphabetically by family name; the order does not imply
+primary authorship or contribution rank. GitHub co-author attribution is
+recorded in the repository's initial commit.
 
 ## Limitations and realistic next steps
 
